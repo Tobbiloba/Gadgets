@@ -17,10 +17,86 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-evenly;
 }
 .iphone-img {
-  border: 1px solid red;
+  /* border: 1px solid red; */
+  height: 75vh;
 }
 .homePage__iphone-text {
-  border: 1px solid red;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: black;
+  height: 60vh;
+  width: 25vw;
+  border-radius: 20px;
+  justify-content: center;
+}
+.homePage__iphone-text p {
+  color: rgb(134, 138, 138);
+  font-size: 20px;
+}
+.homePage__iphone-text h3 {
+  font-size: 24px;
+  color: white;
+}
+.homePage__iphone-text h1 {
+  font-size: 50px;
+  background: -webkit-linear-gradient(#eee, rgb(116, 160, 211));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.homePage__iphone-text h5 {
+  color: rgb(255, 253, 249);
+  /* border: 1px solid pink; */
+  line-height: 1.5;
+  width: 18vw;
+  height: 18vh;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.samsung-img {
+  border-left: 1px solid rgb(61, 59, 59);
+  width: 50vw;
+  height: 60vh;
+}
+.homePage__samsung-text {
+  /* border: 1px solid red; */
+  margin: 0px 0px 0px 60px;
+  width: 30vw;
+}
+.homePage__samsung-text h2 {
+  font-size: 52px;
+}
+.homePage__samsung-text h4 {
+  font-size: 16px;
+}
+.homePage__samsung-text Button {
+  border-radius: 20px;
+}
+.xiaomi__container {
+  background-image: url(./image/xiaomi/xiaomi2.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.xiaomi__container-text {
+  position: relative;
+}
+
+.xiaomi__container-text h1 {
+  color: white;
+  font-size: 70px;
+}
+
+.xiaomi__container-text p {
+  color: gray;
+  font-size: 18px;
+}
+.xiaomi__container-text Button {
+  background-color: black;
+  color: white;
 }
