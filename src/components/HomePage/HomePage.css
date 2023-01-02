@@ -1,3 +1,8 @@
 .HomePage__container {
   height: 85vh;
 }
+.mySwiper {
+  border: 1px solid red;
+  z-index: 4;
+  height: 85vh;
+}
