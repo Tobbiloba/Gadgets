@@ -12,6 +12,7 @@ import './HomePage.css'
 import iphone from './image/iphone/iphone14.jpg'
 import samsung from './image/samsung/sam1.jpg'
 import xiaomi from './image/xiaomi/xiaomi1.webp'
+import huawei from './image/huawei/huawei1.webp'
 
 export const HomePage = () => {
   return (
@@ -56,9 +57,11 @@ export const HomePage = () => {
             </h4>
             <Button variant="contained">Learn more</Button>
           </div>
-          <img src={samsung} alt="samsung" className="samsung-img" />
+          <div className="samsung__img-div">
+            <img src={samsung} alt="samsung" className="samsung-img" />
+          </div>
         </SwiperSlide> */}
-        <SwiperSlide className="swiper xiaomi__container">
+        {/* <SwiperSlide className="swiper xiaomi__container">
           <div className="xiaomi__container-text">
             <h1>
               Explore <span>Xiaomi Best</span> Offers
@@ -69,8 +72,10 @@ export const HomePage = () => {
             </p>
             <Button variant="contained">Explore</Button>
           </div>
-        </SwiperSlide>
-        {/* <SwiperSlide>Slide 4</SwiperSlide> */}
+        </SwiperSlide> */}
+        {/* <SwiperSlide>
+          <img src={huawei} alt="huawei" className="huawei-img" />
+        </SwiperSlide> */}
         {/* <SwiperSlide>Slide 5</SwiperSlide> */}
         {/* <SwiperSlide>Slide 6</SwiperSlide> */}
         {/* <SwiperSlide>Slide 7</SwiperSlide> */}

@@ -60,20 +60,35 @@
   text-align: center;
 }
 .samsung-img {
-  border-left: 1px solid rgb(61, 59, 59);
-  width: 50vw;
-  height: 60vh;
+  width: 53vw;
+  height: 65vh;
+}
+.sam {
+  background-color: black;
+}
+.samsung__img-div {
+  border-left: 2px solid rgb(150, 125, 125);
+  height: 75vh;
+  width: 55vw;
+  background-color: white;
+  position: relative;
+  left: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .homePage__samsung-text {
   /* border: 1px solid red; */
-  margin: 0px 0px 0px 60px;
+  margin: 0px 0px 80px 60px;
   width: 30vw;
 }
 .homePage__samsung-text h2 {
   font-size: 52px;
+  color: wheat;
 }
 .homePage__samsung-text h4 {
   font-size: 16px;
+  color: rgb(204, 201, 198);
 }
 .homePage__samsung-text Button {
   border-radius: 20px;
@@ -117,4 +132,10 @@
 }
 .xiaomi__container-text Button:hover {
   width: 6vw;
+}
+.huawei-img {
+  width: 100vw;
+  height: 70vh;
+  position: relative;
+  right: 5%;
 }
