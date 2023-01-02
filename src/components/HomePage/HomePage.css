@@ -85,18 +85,36 @@
 }
 .xiaomi__container-text {
   position: relative;
+  left: 30%;
+  width: 33vw;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .xiaomi__container-text h1 {
   color: white;
-  font-size: 70px;
+  font-size: 64px;
 }
-
+.xiaomi__container-text h1 span {
+  color: rgb(88, 158, 216);
+  font-size: 72px;
+}
 .xiaomi__container-text p {
   color: gray;
   font-size: 18px;
+  width: 25vw;
+  position: relative;
+  bottom: 39px;
 }
 .xiaomi__container-text Button {
   background-color: black;
+  position: relative;
+  bottom: 5px;
   color: white;
+  width: 5vw;
+  height: 4vh;
+}
+.xiaomi__container-text Button:hover {
+  width: 6vw;
 }

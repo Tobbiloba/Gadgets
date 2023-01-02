@@ -60,7 +60,9 @@ export const HomePage = () => {
         </SwiperSlide> */}
         <SwiperSlide className="swiper xiaomi__container">
           <div className="xiaomi__container-text">
-            <h1>Explore Xiaomi Offers</h1>
+            <h1>
+              Explore <span>Xiaomi Best</span> Offers
+            </h1>
             <p>
               Get up to $200 enhanced trade-in credit when you buy the new
               Xiaomi 12 Ultra
