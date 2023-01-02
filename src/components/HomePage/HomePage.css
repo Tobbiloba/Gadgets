@@ -1,8 +1,26 @@
 .HomePage__container {
   height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(34, 34, 34);
 }
 .mySwiper {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   z-index: 4;
-  height: 85vh;
+  height: 75vh;
+  width: 90vw;
+  background-color: white;
+  border-radius: 50px;
+}
+.swiper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.iphone-img {
+  border: 1px solid red;
+}
+.homePage__iphone-text {
+  border: 1px solid red;
 }
