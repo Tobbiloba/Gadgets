@@ -1,0 +1,30 @@
+.menuBar__container {
+  /* border: 1px solid red; */
+  background-color: rgb(22, 43, 82);
+  width: 100vw;
+  height: 12vh;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+}
+.menuBar__company-name {
+  margin: 0px 0px 0px 100px;
+}
+.menuBar__company-name h1 {
+  color: rgb(240, 235, 235);
+  font-size: 64px;
+}
+.menuBar__company-name h1 span {
+  color: rgb(58, 90, 180);
+}
+.menuBar__item {
+  position: relative;
+  left: 42vw;
+  /* border: 2px solid blue; */
+}
+.menuBar__item .menuBar__items {
+  margin-left: 10px;
+  color: rgb(242, 243, 247);
+  border: 1px solid rgb(29, 22, 22);
+}

@@ -1,0 +1,22 @@
+.Marquee__container {
+  margin-bottom: 130px;
+  background-color: rgb(224, 221, 221);
+}
+.Marquee__icons {
+  width: 250px;
+  height: 200px;
+  padding: 0px 180px 0px 0px;
+}
+
+.nokia {
+  width: 250px;
+  height: 120px;
+}
+.huawei {
+  height: 130px;
+  width: 150px;
+}
+.xiaomi {
+  height: 100px;
+  width: 190px;
+}
