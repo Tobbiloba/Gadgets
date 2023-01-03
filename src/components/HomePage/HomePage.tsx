@@ -61,7 +61,7 @@ export const HomePage = () => {
 
           <img src={samsung} alt="samsung" className="samsung-img" />
         </SwiperSlide> */}
-        {/* <SwiperSlide className="swiper xiaomi__container">
+        <SwiperSlide className="swiper xiaomi__container">
           <div className="xiaomi__container-text">
             <h1>
               Explore <span>Xiaomi Best</span> Offers
@@ -72,7 +72,8 @@ export const HomePage = () => {
             </p>
             <Button variant="contained">Explore</Button>
           </div>
-        </SwiperSlide> */}
+          <div className="cover"></div>
+        </SwiperSlide>
         {/* <SwiperSlide className="swiper">
           <div className="huawei__container-text">
             <h1>
@@ -87,7 +88,7 @@ export const HomePage = () => {
           </div>
           <img src={huawei} alt="huawei" className="huawei-img" />
         </SwiperSlide> */}
-        <SwiperSlide className="swiper nok">
+        {/* <SwiperSlide className="swiper nok">
           <img src={nokia} className="nokia__img" />
           <div className="nokia__container-text">
             <h1>Lorem ipsum</h1>
@@ -98,7 +99,7 @@ export const HomePage = () => {
               nisi ut aliquip ex ea commodo consequat.
             </p>
           </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
       </Swiper>
     </div>
   )

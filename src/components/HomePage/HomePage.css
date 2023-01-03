@@ -84,13 +84,13 @@
   border-radius: 20px;
 }
 .xiaomi__container {
-  background-image: url(./image/xiaomi/xiaomi2.webp);
+  background-image: url(./image/xiaomi/xiaomi1.webp);
   background-repeat: no-repeat;
   background-size: cover;
 }
 .xiaomi__container-text {
   position: relative;
-  left: 30%;
+  left: 0%;
   width: 33vw;
   height: 30vh;
   display: flex;
@@ -111,6 +111,15 @@
   width: 25vw;
   position: relative;
   bottom: 39px;
+}
+.cover {
+  width: 15vw;
+  height: 20vh;
+  position: relative;
+  left: 16%;
+  bottom: 9%;
+  border: 1px solid rgb(26, 25, 25);
+  background-color: rgb(31, 29, 29);
 }
 .xiaomi__container-text Button {
   background-color: black;
