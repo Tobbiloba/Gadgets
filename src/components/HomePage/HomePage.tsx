@@ -12,7 +12,7 @@ import './HomePage.css'
 import iphone from './image/iphone/iphone14.jpg'
 import samsung from './image/samsung/sam3.webp'
 import xiaomi from './image/xiaomi/xiaomi1.webp'
-import huawei from './image/huawei/huawei1.webp'
+import huawei from './image/huawei/huawei4.png'
 
 export const HomePage = () => {
   return (
@@ -47,7 +47,7 @@ export const HomePage = () => {
             </h5>
           </div>
         </SwiperSlide> */}
-        <SwiperSlide className="swiper sam">
+        {/* <SwiperSlide className="swiper sam">
           <div className="homePage__samsung-text">
             <h2>Samsung for Business</h2>
             <h4>
@@ -59,7 +59,7 @@ export const HomePage = () => {
           </div>
 
           <img src={samsung} alt="samsung" className="samsung-img" />
-        </SwiperSlide>
+        </SwiperSlide> */}
         {/* <SwiperSlide className="swiper xiaomi__container">
           <div className="xiaomi__container-text">
             <h1>
@@ -72,12 +72,20 @@ export const HomePage = () => {
             <Button variant="contained">Explore</Button>
           </div>
         </SwiperSlide> */}
-        {/* <SwiperSlide className="swiper">
+        <SwiperSlide className="swiper">
           <div className="huawei__container-text">
-            <h1>working</h1>
+            <h1>
+              MATE 40 <span>PRO</span>
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
           </div>
           <img src={huawei} alt="huawei" className="huawei-img" />
-        </SwiperSlide> */}
+        </SwiperSlide>
         {/* <SwiperSlide>Slide 5</SwiperSlide> */}
         {/* <SwiperSlide>Slide 6</SwiperSlide> */}
         {/* <SwiperSlide>Slide 7</SwiperSlide> */}
