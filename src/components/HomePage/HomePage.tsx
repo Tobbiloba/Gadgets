@@ -10,7 +10,7 @@ import './HomePage.css'
 
 // importing images
 import iphone from './image/iphone/iphone14.jpg'
-import samsung from './image/samsung/sam1.jpg'
+import samsung from './image/samsung/sam3.webp'
 import xiaomi from './image/xiaomi/xiaomi1.webp'
 import huawei from './image/huawei/huawei1.webp'
 
@@ -47,7 +47,7 @@ export const HomePage = () => {
             </h5>
           </div>
         </SwiperSlide> */}
-        {/* <SwiperSlide className="swiper sam">
+        <SwiperSlide className="swiper sam">
           <div className="homePage__samsung-text">
             <h2>Samsung for Business</h2>
             <h4>
@@ -57,10 +57,9 @@ export const HomePage = () => {
             </h4>
             <Button variant="contained">Learn more</Button>
           </div>
-          <div className="samsung__img-div">
-            <img src={samsung} alt="samsung" className="samsung-img" />
-          </div>
-        </SwiperSlide> */}
+
+          <img src={samsung} alt="samsung" className="samsung-img" />
+        </SwiperSlide>
         {/* <SwiperSlide className="swiper xiaomi__container">
           <div className="xiaomi__container-text">
             <h1>
@@ -73,7 +72,10 @@ export const HomePage = () => {
             <Button variant="contained">Explore</Button>
           </div>
         </SwiperSlide> */}
-        {/* <SwiperSlide>
+        {/* <SwiperSlide className="swiper">
+          <div className="huawei__container-text">
+            <h1>working</h1>
+          </div>
           <img src={huawei} alt="huawei" className="huawei-img" />
         </SwiperSlide> */}
         {/* <SwiperSlide>Slide 5</SwiperSlide> */}
