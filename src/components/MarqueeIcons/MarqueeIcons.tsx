@@ -9,11 +9,11 @@ export const MarqueeIcons = () => {
   return (
     <div className="Marquee__container">
       <Marquee>
-        <img src={iphone} className="Marquee__icons iphone" />
-        <img src={samsung} className="Marquee__icons samsung" />
-        <img src={huawei} className="Marquee__icons huawei" />
-        <img src={xiaomi} className="Marquee__icons xiaomi" />
-        <img src={nokia} className="Marquee__icons nokia" />
+        <img src={iphone} className="Marquee__icons iphone" alt="iphone" />
+        <img src={samsung} className="Marquee__icons samsung" alt="samsung" />
+        <img src={huawei} className="Marquee__icons huawei" alt="huawei" />
+        <img src={xiaomi} className="Marquee__icons xiaomi" alt="xiaomi" />
+        <img src={nokia} className="Marquee__icons nokia" alt="nokia" />
       </Marquee>
     </div>
   )
