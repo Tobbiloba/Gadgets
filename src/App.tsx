@@ -1,5 +1,5 @@
 import React from 'react'
-import { MenuBar, HomePage, MarqueeIcons } from './components/index'
+import { MenuBar, HomePage, MarqueeIcons, Comments } from './components/index'
 import './App.css'
 
 function App() {
@@ -8,6 +8,7 @@ function App() {
       <MenuBar />
       <HomePage />
       <MarqueeIcons />
+      <Comments />
     </div>
   )
 }
