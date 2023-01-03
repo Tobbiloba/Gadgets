@@ -1,0 +1,13 @@
+.comments__container {
+  border: 1px solid red;
+  width: 100vw;
+  height: 100vh;
+  margin: 0px auto 0px auto;
+  background-color: rgb(218, 218, 218);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider1 {
+  height: 80vh;
+}
