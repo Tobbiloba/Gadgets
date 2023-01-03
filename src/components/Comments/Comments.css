@@ -16,7 +16,6 @@
   background-color: black;
 }
 .comment1__text {
-  /* border: 1px solid red; */
   width: 40vw;
   margin: 0px 0px 0px 5vw;
   color: white;
@@ -44,7 +43,6 @@
   background-color: rgb(255, 255, 255);
 }
 .comment2__text {
-  /* border: 1px solid red; */
   width: 40vw;
   margin: 0px 0px 0px 5vw;
   color: rgb(24, 23, 23);

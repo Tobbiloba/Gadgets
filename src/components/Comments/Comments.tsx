@@ -50,7 +50,7 @@ export const Comments = () => {
         </SwiperSlide> */}
         {/* <SwiperSlide className="slider2">
           <div className="comment2__text">
-            <h2>CHRIS HEMSWORTH</h2>
+            <h2>BABRA OKABABA</h2>
             <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -64,7 +64,7 @@ export const Comments = () => {
           </div>
           <img src={female1} className="comment2__img" alt="img1" />
         </SwiperSlide> */}
-        <SwiperSlide className="slider1">
+        {/* <SwiperSlide className="slider1">
           <img src={man2} className="comment1__img" alt="img1" />
           <div className="comment1__text">
             <h2>CHRIS HEMSWORTH</h2>
@@ -79,9 +79,24 @@ export const Comments = () => {
               sunt in culpa qui officia deserunt mollit anim id est laborum.{' '}
             </p>
           </div>
+        </SwiperSlide> */}
+        <SwiperSlide className="slider2">
+          <div className="comment2__text">
+            <h2>LORI GREANER</h2>
+            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.{' '}
+            </p>
+          </div>
+          <img src={female2} className="comment2__img" alt="img1" />
         </SwiperSlide>
-        {/* <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
+        {/* <SwiperSlide>Slide 5</SwiperSlide>
         <SwiperSlide>Slide 6</SwiperSlide>
         <SwiperSlide>Slide 7</SwiperSlide>
         <SwiperSlide>Slide 8</SwiperSlide>
