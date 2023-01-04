@@ -1,0 +1,60 @@
+.huawei__brand-container {
+  /* border: 1px solid red; */
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  background-color: rgb(253, 253, 253);
+}
+.swiper {
+  border-radius: 5px;
+  width: 90vw;
+  height: 93vh;
+  position: relative;
+  top: 2px;
+  background-color: rgb(245, 245, 245);
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* Center slide text vertically */
+  background-color: rgb(247, 247, 247);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  height: 80vh;
+  margin: auto 0px auto 0px;
+  border-radius: 20px;
+}
+.swiper-slide h3 {
+  font-size: 32px;
+}
+
+.swiper-slide h3 span {
+  background-color: red;
+  color: white;
+}
+.mate50-pro {
+  height: 60vh;
+  position: relative;
+  left: 15%;
+  width: 52vw;
+}
+.huawei__container-detail {
+  display: flex;
+  flex-direction: row;
+  width: 50vw;
+  position: relative;
+  right: 36%;
+}
