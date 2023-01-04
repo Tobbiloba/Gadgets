@@ -48,13 +48,13 @@
 .mate50-pro {
   height: 60vh;
   position: relative;
-  left: 15%;
-  width: 52vw;
+  left: 18%;
+  width: 55vw;
 }
 .huawei__container-detail {
   display: flex;
   flex-direction: row;
   width: 50vw;
   position: relative;
-  right: 36%;
+  right: 38%;
 }

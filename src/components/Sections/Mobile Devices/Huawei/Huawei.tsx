@@ -9,6 +9,7 @@ import 'swiper/css/pagination'
 
 //import images
 import mate50Pro from './images/mate50-pro.png'
+import mate50 from './images/mate50.png'
 
 // import required modules
 import { Pagination } from 'swiper'
@@ -47,7 +48,25 @@ export const Huawei = () => {
             </div>
           </div>
         </SwiperSlide>
-        {/* <SwiperSlide>Slide 2</SwiperSlide> */}
+        <SwiperSlide>
+          <h3>MATE 50</h3>
+          <div className="huawei__container-detail">
+            <img src={mate50} alt="mate-50-pro" className="mate50-pro" />
+            <div className="huawei__container-details">
+              <h4>OS:</h4>
+              <p>EMUI 13 (International); HarmonyOS 3.0 (China)</p>
+              <h4>Chipset:</h4>
+              <p>Qualcomm SM8475 Snapdragon 8+ Gen 1 4G (4 nm)</p>
+              <h4>Internal:</h4>
+              <p>256GB 8GB RAM, 512GB 8GB RAM</p>
+              <h4>Main Camera:</h4>
+              <p>
+                50 MP, f/1.4-f/4.0, 24mm (wide), PDAF, Laser AF, OIS 12 MP,
+                f/3.4 125nm
+              </p>
+            </div>
+          </div>
+        </SwiperSlide>
         {/* <SwiperSlide>Slide 3</SwiperSlide> */}
         {/* <SwiperSlide>Slide 4</SwiperSlide> */}
         {/* <SwiperSlide>Slide 5</SwiperSlide> */}
