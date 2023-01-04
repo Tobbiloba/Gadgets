@@ -1,5 +1,4 @@
 .comments__container {
-  border: 1px solid red;
   width: 100vw;
   height: 100vh;
   margin: 0px auto 0px auto;
@@ -48,9 +47,9 @@
   color: rgb(24, 23, 23);
 }
 .comment2__img {
-  width: 60vw;
+  width: 50vw;
   height: 80vh;
-  margin: 0px 0px 0px 4vw;
+  margin: 0px 0px 0px 5vw;
 }
 .comment2__text h2 {
   font-size: 64px;
@@ -63,4 +62,13 @@
 .comment2__text p {
   font-size: 18px;
   line-height: 1.3;
+}
+.swiper-button-prev {
+  opacity: 0;
+}
+.swiper-button-next {
+  opacity: 0;
+}
+.swiper-pagination-bullet {
+  opacity: 0;
 }

@@ -22,7 +22,7 @@ export const Comments = () => {
         spaceBetween={30}
         centeredSlides={true}
         autoplay={{
-          delay: 2500,
+          delay: 5500,
           disableOnInteraction: false,
         }}
         pagination={{
@@ -32,7 +32,7 @@ export const Comments = () => {
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
-        {/* <SwiperSlide className="slider1">
+        <SwiperSlide className="slider1">
           <img src={man1} className="comment1__img" alt="img1" />
           <div className="comment1__text">
             <h2>CHRIS HEMSWORTH</h2>
@@ -47,8 +47,8 @@ export const Comments = () => {
               sunt in culpa qui officia deserunt mollit anim id est laborum.{' '}
             </p>
           </div>
-        </SwiperSlide> */}
-        {/* <SwiperSlide className="slider2">
+        </SwiperSlide>
+        <SwiperSlide className="slider2">
           <div className="comment2__text">
             <h2>BABRA OKABABA</h2>
             <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
@@ -63,8 +63,8 @@ export const Comments = () => {
             </p>
           </div>
           <img src={female1} className="comment2__img" alt="img1" />
-        </SwiperSlide> */}
-        {/* <SwiperSlide className="slider1">
+        </SwiperSlide>
+        <SwiperSlide className="slider1">
           <img src={man2} className="comment1__img" alt="img1" />
           <div className="comment1__text">
             <h2>CHRIS HEMSWORTH</h2>
@@ -79,7 +79,7 @@ export const Comments = () => {
               sunt in culpa qui officia deserunt mollit anim id est laborum.{' '}
             </p>
           </div>
-        </SwiperSlide> */}
+        </SwiperSlide>
         <SwiperSlide className="slider2">
           <div className="comment2__text">
             <h2>LORI GREANER</h2>

@@ -1,0 +1,7 @@
+export { Huawei } from './Huawei/Huawei'
+export { Infinix } from './Infinix/Infinix'
+export { Iphone } from './Iphone/Iphone'
+export { Nokia } from './Nokia/Nokia'
+export { Samsung } from './Samsung/Samsung'
+export { Tecno } from './Tecno/Tecno'
+export { Xiaomi } from './Xiaomi/Xiaomi'

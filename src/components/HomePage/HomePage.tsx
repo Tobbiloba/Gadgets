@@ -30,7 +30,7 @@ export const HomePage = () => {
         modules={[Pagination, Autoplay]}
         className="mySwiper"
       >
-        {/* <SwiperSlide className="swiper">
+        <SwiperSlide className="swiper">
           <img src={iphone} alt="iphone-img" className="iphone-img" />
           <div className="homePage__iphone-text">
             <p>New</p>
@@ -47,8 +47,8 @@ export const HomePage = () => {
               iPhone XR), 6.12 inches (iPhone 14 Pro).
             </h5>
           </div>
-        </SwiperSlide> */}
-        {/* <SwiperSlide className="swiper sam">
+        </SwiperSlide>
+        <SwiperSlide className="swiper sam">
           <div className="homePage__samsung-text">
             <h2>Samsung for Business</h2>
             <h4>
@@ -60,7 +60,7 @@ export const HomePage = () => {
           </div>
 
           <img src={samsung} alt="samsung" className="samsung-img" />
-        </SwiperSlide> */}
+        </SwiperSlide>
         <SwiperSlide className="swiper xiaomi__container">
           <div className="xiaomi__container-text">
             <h1>
@@ -72,9 +72,8 @@ export const HomePage = () => {
             </p>
             <Button variant="contained">Explore</Button>
           </div>
-          <div className="cover"></div>
         </SwiperSlide>
-        {/* <SwiperSlide className="swiper">
+        <SwiperSlide className="swiper">
           <div className="huawei__container-text">
             <h1>
               MATE 40 <span>PRO</span>
@@ -87,8 +86,8 @@ export const HomePage = () => {
             </p>
           </div>
           <img src={huawei} alt="huawei" className="huawei-img" />
-        </SwiperSlide> */}
-        {/* <SwiperSlide className="swiper nok">
+        </SwiperSlide>
+        <SwiperSlide className="swiper nok">
           <img src={nokia} className="nokia__img" />
           <div className="nokia__container-text">
             <h1>Lorem ipsum</h1>
@@ -99,7 +98,7 @@ export const HomePage = () => {
               nisi ut aliquip ex ea commodo consequat.
             </p>
           </div>
-        </SwiperSlide> */}
+        </SwiperSlide>
       </Swiper>
     </div>
   )
