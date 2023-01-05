@@ -7,20 +7,29 @@
   /* justify-content: center; */
   align-items: center;
   background-color: rgb(253, 253, 253);
+  position: relative;
 }
-.swiper {
+.huawei__brand-header {
+  background-color: rgb(240, 240, 240);
+  width: 100vw;
+  color: white;
+  display: flex;
+  justify-content: center;
+  -moz-box-shadow: 0px 3px 3px #000;
+  -webkit-box-shadow: 0px 3px 3px #000;
+  box-shadow-bottom: 5px #000;
+}
+.huawei__mySwiper {
   border-radius: 5px;
   width: 90vw;
-  height: 93vh;
+  height: 92vh;
   position: relative;
-  top: 2px;
+  top: 10px;
   background-color: rgb(245, 245, 245);
 }
 
-.swiper-slide {
+.huawei__swiper-slide {
   text-align: center;
-  font-size: 18px;
-  /* Center slide text vertically */
   background-color: rgb(247, 247, 247);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -36,12 +45,18 @@
   height: 80vh;
   margin: auto 0px auto 0px;
   border-radius: 20px;
+  border: 3px solid rgb(223, 222, 222);
+  cursor: pointer;
 }
-.swiper-slide h3 {
+
+.huawei__swiper-slide:hover {
+  background-color: rgb(223, 222, 222);
+}
+.huawei__swiper-slide h3 {
   font-size: 32px;
 }
 
-.swiper-slide h3 span {
+.huawei__swiper-slide h3 span {
   background-color: red;
   color: white;
 }
@@ -57,4 +72,53 @@
   width: 50vw;
   position: relative;
   right: 38%;
+}
+.mate50 {
+  width: 60vw;
+  height: 60vh;
+  position: relative;
+  left: 6vw;
+}
+.huawei__mate50-container-details {
+  position: relative;
+  right: 7vw;
+}
+.mate40-pro {
+  height: 63vh;
+  position: relative;
+  right: 3vw;
+}
+
+.huawei__mate40-pro-container-detail {
+  display: flex;
+  flex-direction: row;
+}
+.huawei__mate40-pro-container-detail p {
+  width: 6vw;
+}
+.huawei__matexs-container-detail {
+  display: flex;
+  flex-direction: row;
+}
+.huawei__matexs-container-detail img {
+  width: 27.5vw;
+  height: 65vh;
+}
+.huawei__matexs-container-details {
+  width: 8vw;
+  margin: 0px 7.5vw 0px 0px;
+}
+.huawei__mate-xs2-container-detail {
+  display: flex;
+  flex-direction: row;
+}
+.huawei__mate-xs2-container-detail img {
+  border: 1px solid red;
+  height: 65vh;
+  width: 55vw;
+}
+.matexs2__img {
+  border: 1px solid rgb(73, 70, 70);
+  width: 55vw;
+  padding: 0px 0px 0px 0px;
 }

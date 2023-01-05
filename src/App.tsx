@@ -11,11 +11,11 @@ import './App.css'
 function App() {
   return (
     <div>
-      {/* <MenuBar />
-      <HomePage /> */}
+      {/* <MenuBar /> */}
+      {/* <HomePage /> */}
       <Section />
-      {/* <Comments />
-      <MarqueeIcons /> */}
+      {/* <Comments /> */}
+      {/* <MarqueeIcons /> */}
     </div>
   )
 }
