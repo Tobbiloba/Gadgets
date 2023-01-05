@@ -1,0 +1,57 @@
+.infinix__container {
+  background-color: rgb(14, 13, 13);
+  height: 100vh;
+  width: 100vw;
+  /* padding-top: 5px; */
+}
+.infinix__container-header {
+  /* border: 1px solid rgb(53, 52, 52); */
+  background-color: rgb(34, 34, 34);
+  height: 8.5vh;
+  padding-top: 5px;
+  display: flex;
+  justify-content: center;
+  color: aliceblue;
+  -moz-box-shadow: 30px 3px 3px rgb(90, 86, 86);
+  -webkit-box-shadow: 0px 3px 3px rgb(128, 123, 123);
+  box-shadow-bottom: 5px rgb(121, 116, 116);
+}
+.infinix__container-scroll {
+  border: 1px solid white;
+  background-color: rgb(222, 229, 230);
+  width: 90vw;
+  height: 88vh;
+  margin: 1.5vh auto 0px auto;
+  overflow: scroll;
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+  align-items: center;
+}
+.infinix__container-products {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  width: 34vw;
+  height: 80vh;
+  align-items: center;
+  margin: 35px 0px 0px 10vh;
+  border-radius: 15px;
+  padding-top: 20px;
+  background-color: rgb(231, 237, 238);
+}
+.infinix__container-products img {
+  width: 25vw;
+  height: 50vh;
+  border-radius: 15px;
+  padding-bottom: 20px;
+  cursor: pointer;
+}
+.infinix__container-products p {
+  /* border: 1px solid red; */
+  width: 23vw;
+  color: rgb(80, 80, 80);
+}
+.infinix__container-products h2 {
+  font-size: 32px;
+}

@@ -11,7 +11,8 @@ import {
 export const Section = () => {
   return (
     <div>
-      <Huawei />
+      {/* <Huawei /> */}
+      <Infinix />
     </div>
   )
 }

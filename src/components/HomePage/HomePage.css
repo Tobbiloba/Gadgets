@@ -6,7 +6,7 @@
   background-color: rgb(34, 34, 34);
 }
 .mySwiper {
-  z-index: 4;
+  /* z-index: 4; */
   height: 75vh;
   width: 90vw;
   background-color: white;
