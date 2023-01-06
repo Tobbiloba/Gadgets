@@ -1,5 +1,4 @@
 .menuBar__container {
-  /* border: 1px solid red; */
   background-color: rgb(18, 18, 19);
   width: 100vw;
   height: 10vh;
@@ -21,7 +20,6 @@
 .menuBar__item {
   position: relative;
   left: 42vw;
-  /* border: 2px solid blue; */
 }
 .menuBar__item .menuBar__items {
   margin-left: 10px;

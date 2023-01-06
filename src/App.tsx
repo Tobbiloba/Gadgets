@@ -1,4 +1,12 @@
 import React from 'react'
+
+import { Swiper, SwiperSlide } from 'swiper/react'
+// Import Swiper styles
+import 'swiper/css'
+import 'swiper/css/pagination'
+
+import { Pagination } from 'swiper'
+
 import {
   MenuBar,
   HomePage,
@@ -11,11 +19,28 @@ import './App.css'
 function App() {
   return (
     <div>
-      {/* <MenuBar /> */}
-      {/* <HomePage /> */}
-      <Section />
-      {/* <Comments /> */}
-      {/* <MarqueeIcons /> */}
+      <Swiper
+        direction={'vertical'}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Pagination]}
+        className="mySwiper"
+      >
+        <SwiperSlide>
+          <MenuBar />
+          <HomePage />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Section />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Comments />
+        </SwiperSlide>
+        <SwiperSlide>
+          <MarqueeIcons />
+        </SwiperSlide>
+      </Swiper>
     </div>
   )
 }

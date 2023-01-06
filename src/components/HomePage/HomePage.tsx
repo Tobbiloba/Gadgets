@@ -28,7 +28,7 @@ export const HomePage = () => {
           disableOnInteraction: false,
         }}
         modules={[Pagination, Autoplay]}
-        className="mySwiper"
+        className="homepage__mySwiper"
       >
         <SwiperSlide className="swiper">
           <img src={iphone} alt="iphone-img" className="iphone-img" />

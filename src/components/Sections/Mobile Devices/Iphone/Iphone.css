@@ -1,0 +1,79 @@
+.iphone__container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-repeat: no-repeat;
+}
+.iphone__container-slider {
+  display: -webkit-box;
+  display: flex;
+  color: white;
+}
+.iphone__header-text {
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  color: white;
+  -moz-box-shadow: 30px 3px 3px rgb(85, 81, 81);
+  -webkit-box-shadow: 0px 3px 3px rgb(15, 15, 15);
+  box-shadow-bottom: 5px rgb(112, 106, 106);
+  background-color: rgb(47, 114, 168);
+  margin-bottom: 0.5vh;
+}
+.iphone__mySwiper {
+  height: 89.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  width: 100vw;
+}
+.container1 {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+}
+.container2 {
+  background-color: black;
+}
+.container3 {
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  width: 100vw;
+}
+.container3 img {
+  width: 60vw;
+  height: 85vh;
+  margin-top: 5vh;
+  border-radius: 20px;
+}
+.iphone__container3-details {
+  display: flex;
+  flex-direction: row;
+  margin-right: 5vw;
+  width: 35vw;
+  color: black;
+  margin-left: 3.5vw;
+}
+.iphone__selfie-camera h2,
+.iphone__main-camera h2 {
+  font-size: 32px;
+  padding-bottom: 3vh;
+}
+.iphone__selfie-camera p,
+.iphone__main-camera p {
+  padding-bottom: 15px;
+  font-size: 18px;
+  border-bottom: 1px solid rgb(54, 76, 148);
+  display: flex;
+  justify-content: center;
+}
+.iphone__selfie-camera {
+  margin-right: 3vw;
+  padding-right: 3vw;
+  border-right: 1px solid white;
+}

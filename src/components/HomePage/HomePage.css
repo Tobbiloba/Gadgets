@@ -5,8 +5,7 @@
   align-items: center;
   background-color: rgb(34, 34, 34);
 }
-.mySwiper {
-  /* z-index: 4; */
+.homepage__mySwiper {
   height: 75vh;
   width: 90vw;
   background-color: white;

@@ -2,10 +2,8 @@
   background-color: rgb(14, 13, 13);
   height: 100vh;
   width: 100vw;
-  /* padding-top: 5px; */
 }
 .infinix__container-header {
-  /* border: 1px solid rgb(53, 52, 52); */
   background-color: rgb(34, 34, 34);
   height: 8.5vh;
   padding-top: 5px;
@@ -29,7 +27,6 @@
   align-items: center;
 }
 .infinix__container-products {
-  /* border: 1px solid black; */
   display: flex;
   flex-direction: column;
   width: 30vw;
@@ -58,4 +55,3 @@
   width: 25vw;
   height: 50vh;
 }
-/* border: 1px solid red; */
